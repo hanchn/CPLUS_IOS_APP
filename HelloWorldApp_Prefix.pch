@@ -5,10 +5,19 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
+    #import <CoreGraphics/CoreGraphics.h>
 #endif
 
 #ifdef __cplusplus
     #include <iostream>
     #include <string>
     #include <vector>
+    using namespace std;
+#endif
+
+// Common definitions
+#ifndef __OBJC__
+    #define YES 1
+    #define NO 0
+    #define nil NULL
 #endif
